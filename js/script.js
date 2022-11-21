@@ -19,15 +19,15 @@ console.log(ticketSixtyFive);
 
 if (passengerAge <= 20) {
 
-  document.getElementById('prezzo').innerHTML = 'Il prezzo è: ' + ticketTwenty.toFixed(2);
+  document.getElementById('prezzo').innerHTML = ticketTwenty.toFixed(2) + "€";
 
 } else if (passengerAge >= 65) {
 
-  document.getElementById('prezzo').innerHTML = 'Il prezzo è: ' + ticketSixtyFive.toFixed(2);
+  document.getElementById('prezzo').innerHTML = ticketSixtyFive.toFixed(2) + "€";
 
 } else {
   
-  document.getElementById('prezzo').innerHTML = 'Il prezzo è: ' + ticketFull.toFixed(2);
+  document.getElementById('prezzo').innerHTML = ticketFull.toFixed(2) + "€";
 
 };
 
