@@ -17,7 +17,7 @@ console.log(ticketTwenty);
 console.log(ticketSixtyFive);
 
 
-if (passengerAge <= 20) {
+if (passengerAge <= 18) {
 
   document.getElementById('prezzo').innerHTML = ticketTwenty.toFixed(2) + "€";
 
